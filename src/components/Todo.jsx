@@ -20,6 +20,7 @@ const Todo = () => {
     const deleteTodo = (id) => setTodo(todo.filter((item)=> item.id !== id))
 
     // const editTask = (value, id) => todo.map((item)=>item.id === id ? {...item, task:value} : item) 
+    // const editTask = (value, id) => todo.map((item)=>item.id === id ? {...item, task:value} : item) 
   
     const editItem = (id) => {
         const editedItem = todo.find((item)=>item.id===id)
